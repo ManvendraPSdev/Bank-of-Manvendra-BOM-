@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Update the connection string with your MongoDB Atlas connection string
-const atlasConnectionString = 'mongodb+srv://welcome2github:ZZyZ5Fmt49ODikvc@cluster0.ftr2wda.mongodb.net/';
+const atlasConnectionString = 'Enter Your own URI';
 mongoose.connect(atlasConnectionString, {
   useNewUrlParser: true,
   useUnifiedTopology: true
